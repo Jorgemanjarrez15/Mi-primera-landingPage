@@ -1,0 +1,225 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 100vh;
+  background: url(./img/fondo2.jpg)no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header .logo-nav{
+  width: 90%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo-nav .logo{
+  width: 40px;
+  height: 40px;
+  background-color: #4c00ff;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px; 
+  border-radius: 4px; 
+}
+header .logo-nav .logo p{
+  margin: 7px;
+}
+header .logo-nav .menu{
+  width: 520px;
+  padding: 10px;
+}
+header .logo-nav .menu ul{
+  list-style: none;
+  display: flex;
+}
+header .logo-nav .menu ul li{
+  margin-right: 15px;
+}
+header .logo-nav .menu ul li a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+header .logo-nav .menu ul li a:hover{
+  border-bottom: 1px solid white;
+}
+header .portada{
+  margin: 0 auto;
+  width: 90%;
+  height: 400px;
+  font-family: sans-serif;
+}
+header .portada h1{
+  margin: 100px 0 10px 0;
+  font-size: 40px;
+  color: white;
+}
+header .portada p{
+  width: 300px;
+  color: white;
+
+  margin: 0 0 10px 0;
+}
+header .portada button{
+  margin: 0 0 10px 0;
+  padding: 10px;
+  background-color: #4c00ff;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+
+/*main*/
+main{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+main .article1{
+  width: 90%;
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: .9rem;
+
+}
+main .article1 .encabezado{
+  margin-top: 20px;
+}
+main .article1 ,.encabezado h3{
+  margin-bottom: 10px;
+}
+main .article1 .encabezado p{
+  font-size: 13px;
+}
+main .fragmentos{
+  margin-top: 150px;
+  display: flex;
+}
+main.fragmentos .fragmento{
+  width: 250px;
+}
+main .fragmentos .fragmento div{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #4c00ff;
+  margin: 0 auto 15px;
+}
+main .article2{
+  background-color: #e9e9e9;
+}
+main .article2 .fragmentos2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .article2 .fragmentos2 .img-portatil{
+  margin: 10px;
+}
+main .article2 .fragmentos2 .parrafo{
+  margin-left: 60px;
+}
+main .article2 .fragmentos2 .parrafo h3{
+  margin-bottom: 15px;
+}
+main .article2 .fragmentos2 .parrafo p{
+  margin-bottom: 5px;
+}
+main .article2 .fragmentos2 .parrafo ol{
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+main .article2 .fragmentos2 .parrafo button{
+  padding: 10px;
+  background-color: #4c00ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+
+footer{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+footer .img-user{
+  width: 100px;
+  height: 100px;
+  margin: 30px auto;
+}
+footer .img-user img{
+  width: 100%;
+}
+footer .descripcion{
+  width: 45rem;
+  margin: 40px auto;
+}
+footer fieldset{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 30px;
+}
+footer fieldset label{
+  margin-left: -240px;
+  margin-top: 10px;
+}
+footer fieldset input{
+  padding: 10px;
+  width: 90%;
+  border-radius: 4px;
+  margin: 5px auto;
+  outline: none;
+  border: none;
+  background-color: #e9e9e9;
+}
+footer fieldset textarea{
+  width: 90%;
+  margin: 0 auto 10px;
+}
+footer fieldset button{
+  width: 100px;
+  padding: 10px;
+  margin: 0 auto 10px;
+  background-color: #4c00ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+@media(max-width:320px){
+  header{
+    width: 320px;
+    height: auto;
+    background: url(./img/fondo2.jpg)no-repeat;
+    background-size: cover;
+  }
+  header .menu{
+    display: none;
+  }
+}
+
+
+
+
