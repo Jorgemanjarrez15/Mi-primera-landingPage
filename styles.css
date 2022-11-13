@@ -9,6 +9,7 @@ header{
   background: url(./img/fondo2.jpg)no-repeat;
   background-size: cover;
   background-attachment: fixed;
+
 }
 header .logo-nav{
   width: 90%;
@@ -17,6 +18,7 @@ header .logo-nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: sans-serif;
 }
 header .logo-nav .logo{
   width: 40px;
@@ -95,7 +97,7 @@ main .article1{
 main .article1 .encabezado{
   margin-top: 20px;
 }
-main .article1 ,.encabezado h3{
+main .article1 .encabezado h3{
   margin-bottom: 10px;
 }
 main .article1 .encabezado p{
@@ -203,11 +205,6 @@ footer fieldset button{
 }
 
 
-
-
-
-
-
 @media(max-width:320px){
   header{
     width: 320px;
@@ -217,6 +214,34 @@ footer fieldset button{
   }
   header .menu{
     display: none;
+  }
+  main .fragmentos{
+    margin-top: 50px
+  }
+  main .article2 .fragmentos2{
+    flex-wrap: wrap;
+  }
+  main .article2 .fragmentos2 .img-portatil{
+    width: 320px;
+  }
+  main .article2 .fragmentos2 .img-portatil img{
+    width: 100%;
+  }
+  main .article2 .reverse{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  main .article2 .reverse .parrafo{
+    margin-bottom: 10px;
+  }
+  footer .descripcion{
+    width: 300px;
+  }
+  footer fieldset{
+    width: 315px;
+  }
+  footer fieldset label{
+    margin-left: -150px;
   }
 }
 
